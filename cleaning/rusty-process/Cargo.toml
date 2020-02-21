@@ -1,0 +1,13 @@
+[package]
+name = "microcont"
+version = "0.1.0"
+authors = ["nendicott"]
+edition = "2018"
+
+
+[dependencies]
+chrono = "*"
+csv = "*"
+rustc-serialize = "*"
+serde = { version = "*", features = ["derive"] }
+parquet = "0.15.1"
